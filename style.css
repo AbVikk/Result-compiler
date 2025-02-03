@@ -1,0 +1,682 @@
+#gone{
+    font-family: calibri;
+}
+#first{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(image/colorful-stationery.jpg);
+    background-size: cover;
+}
+#second{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+#third{
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+#fourth{
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border-style: ridge;
+
+
+}
+#move{
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+#fullname{
+    padding: 8px;
+    border-radius: 7px;
+    width: 50%;
+    
+}
+#subject{
+    padding: 8px;
+    border-radius: 7px;
+    width: 21%;
+    border: none;
+}
+#test1{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+}
+#test2{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+}
+#exam{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+}
+#total{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+}
+#grade{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+}
+#b{
+    margin-left: 5%;
+}
+#subjec{
+    padding: 8px;
+    border-radius: 7px;
+    width: 21%;
+    border: none;
+}
+#test{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#test0{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#exam1{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#tota{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#grade1{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#subje{
+    padding: 8px;
+    border-radius: 7px;
+    width: 21%;
+    border: none;
+
+}
+#tes{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#te{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#exa{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#tot{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#grad{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#subj{
+    padding: 8px;
+    border-radius: 7px;
+    width: 21%;
+    border: none;
+
+}
+#t{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#vr{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#ex{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;  
+    border: none; 
+}
+#to{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#gra{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#su{
+    padding: 8px;
+    border-radius: 7px;
+    width: 21%;
+    border: none;
+
+}
+#from{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#hi{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#am{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#toa{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#de{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#ma{
+    padding: 8px;
+    border-radius: 7px;
+    width: 21%;
+    border: none;
+
+}
+#come{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#nice{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#good{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#goo{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+#gr{
+    padding: 8px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+
+}
+.a{
+    margin-left: 2%;
+    position: absolute;
+    margin-top: -4%;
+    color: white;
+}
+.b{
+    margin-left: 21%;
+    position: absolute;
+    margin-top: -4%;
+    color: white;
+
+}
+.c{
+    margin-left: 34%;
+    position: absolute;
+    margin-top: -4%;
+    color: white;
+}   
+.d{
+    margin-left: 48%;
+    position: absolute;
+    margin-top: -4%;
+    color: white;
+}
+.e{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -4%;
+    color: white;
+}
+.f{
+    margin-left: 73%;
+    position: absolute;
+    margin-top: -4%;
+    color: white;
+}
+.h{
+    margin-top: 7%;
+    margin-left: 20%;
+    position: absolute;
+    color: white;
+}
+#g{
+    margin-top: 7%;
+    margin-left: 42%;
+    position: absolute;
+    padding: 8px;
+    width: 40%;
+    border-radius: 8px;
+    border: none;
+}
+.i{
+    margin-top: 16%;
+    margin-left: 50%;
+    position: absolute;
+    color: white;
+}
+.j{
+color: white;
+position: absolute;
+margin-left: 2%;
+}
+.k{
+    color: white;
+    position: absolute;
+    margin-left: 34%;    
+}
+.l{
+    color: white;
+    position: absolute;
+    margin-left: 51%;
+}
+.m{
+    color: white;
+    position: absolute;
+    margin-left: 75%;
+}
+#n{
+    margin-top: 5%; 
+    margin-left: 34%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#o{
+    margin-top: 5%; 
+    margin-left: 52%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#p{
+    margin-top: 5%; 
+    margin-left: 2%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+#q{
+    margin-top: 5%; 
+    margin-left: 70%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-align: center;
+}
+#r{
+    margin-top: 12%; 
+    margin-left: 2%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+#s{
+    margin-top: 12%; 
+    margin-left: 34%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#u{
+    margin-top: 12%; 
+    margin-left: 52%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#v{
+    margin-top: 12%; 
+    margin-left: 70%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-align: center;
+}
+#w{
+    margin-top: 19%; 
+    margin-left: 2%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+#x{
+    margin-top: 19%; 
+    margin-left: 34%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#y{
+    margin-top: 19%; 
+    margin-left: 52%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#z{
+    margin-top: 19%; 
+    margin-left: 70%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-align: center;
+}
+#wo{
+    margin-top: 26%; 
+    margin-left: 2%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+#xi{
+    margin-top: 26%; 
+    margin-left: 34%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    
+}
+#yu{
+    margin-top: 26%; 
+    margin-left: 52%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    color: white;
+    text-align: center;
+}
+#zi{
+    margin-top: 26%; 
+    margin-left: 70%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-align: center;
+}
+#bi{
+    margin-top: 33%; 
+    margin-left: 2%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+#ca{
+    margin-top: 33%; 
+    margin-left: 34%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#da{
+    margin-top: 33%; 
+    margin-left: 52%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#fa{
+    margin-top: 33%; 
+    margin-left: 70%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-align: center;
+}
+#bb{
+    margin-top: 40%; 
+    margin-left: 2%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+#cb{
+    margin-top: 40%; 
+    margin-left: 34%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#db{
+    margin-top: 40%; 
+    margin-left: 52%;
+    padding: 6px;
+    width: 10%;
+    position: absolute;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#fc{
+    margin-top: 40%; 
+    margin-left: 70%;
+    padding: 6px;
+    width: 25%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-align: center;
+    
+}
+::placeholder{
+    color: brown;
+    text-align: center;
+    font-size: 15px;
+}
+.brow{
+    margin-left: 35%;
+    color: yellow;
+    font-size: 300%;
+    margin-top: 0.5%;
+
+}
+#mit{
+    margin-left: 80%;
+    padding: 10px;
+    width: 15%;
+    background-color: rgb(0, 128, 0, 0.8);
+    color: yellow;
+    border-radius: 8px;
+    margin-top: 10%;
+    border: none;
+}
