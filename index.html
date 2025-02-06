@@ -3,212 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grade</title>
+    <title>Sales</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-
+     <script src="script.js"></script>
 </head>
-<body id="gone">
-    
+<body id="home">
     <div id="first">
-        <h1 class="brow">RESULT COMPILER</h1>
+        
 
         <div id="second">
-            <form action="" method="post" id="move">
-                <label for="name"></label>
-               <input type="text" name="fullname" id="fullname" placeholder="Fullname" oninput="nam()" required><br><br><br><br><br>
+            <img src="logo/logo.png" height="17" alt="" class="firs">
+            <h2 style="font-family: calibri; margin-left: 40%; margin-top: -1%;">NEXA</h2>
+            <h5 class="u">Bola International, Stateline road, Futa south gate, Akure</h5>
+            <h5 class="f">cashier's name:</h5>
+            <input type="text" readonly id="caname" >
+            <h5 class="g">Customer's name:</h5 >
+            <input type="text" readonly id="naame" >
 
-               <h3><sPan class="a">SUBJECT</sPan><span class="b">1ST C.A</span><span class="c">2ND C.A</span><span class="d">EXAM</span><span class="e">TOTAL</span><span class="f">GRADE</span></h3>
+            <h5 ><span class="h">product</span><span class="q">Qty</span><span class="p">price(#)</span></h5>
 
-                <label for="subject"></label>
-                <select name="subject" id="subject" onchange="sub()" required>
-                    <option value="">Select Subject</option>
-                    <option value="English">English</option>
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Agricultural Science">Agricultural Science</option>
-                </select>
+            <input type="text" readonly id="naam1" >
+            <input type="text" readonly id="naam11">
+            <input type="text" readonly id="naam111">
 
-                <input type="number" max="20" name="test1" id="test1" oninput="school()" placeholder="Test 1">
-
-                <input type="number" max="20" name="test2" id="test2" oninput="school()" placeholder="Test 2">
-
-                <input type="number" max="60" name="exam" id="exam" oninput="school()" placeholder="Exam Score">
-
-                <input type="number" name="total" readonly id="total" oninput="school()" placeholder="Total">
-
-                <input type="text" name="grade" readonly id="grade" oninput="school()" placeholder="Grade"><br><br><br>
-
-                <label for="subject"></label>
-                <select name="subject" id="subjec" onchange="dat()" required>
-                    <option value="">Select Subject</option>
-                    <option value="English">English</option>
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Agricultural Science">Agricultural Science</option>
-                </select>
-
-                <input type="number" max="20" name="test" id="test" oninput="data()" placeholder="Test 1">
-
-                <input type="number" max="20" name="test0" id="test0" oninput="data()" placeholder="Test 2">
-
-                <input type="number" max="60" name="exam1" id="exam1" oninput="data()" placeholder="Exam Score">
-
-                <input type="number" name="tota" readonly id="tota" oninput="data()" placeholder="Total">
-
-                <input type="text" name="grade1" readonly id="grade1" oninput="data()" placeholder="Grade"><br><br><br>
-
-                <label for="subject"></label>
-                <select name="subject" id="subje" onchange="drea()" required>
-                    <option value="">Select Subject</option>
-                    <option value="English">English</option>
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Agricultural Science">Agricultural Science</option>
-                </select>
-
-                <input type="number" max="20" name="test" id="tes" oninput="dream()" placeholder="Test 1">
-
-                <input type="number" max="20" name="test0" id="te" oninput="dream()" placeholder="Test 2">
-
-                <input type="number" max="60" name="exam1" id="exa" oninput="dream()" placeholder="Exam Score">
-
-                <input type="number" name="tota" readonly id="tot" oninput="dream()" placeholder="Total">
-
-                <input type="text" name="grade1" readonly id="grad" oninput="dream()" placeholder="Grade"><br><br><br>
-
-                <label for="subject"></label>
-                <select name="subject" id="subj" onchange="cool()" required>
-                    <option value="">Select Subject</option>
-                    <option value="English">English</option>
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Agricultural Science">Agricultural Science</option>
-                </select>
-
-                <input type="number" max="20" name="test" id="t" oninput="cool()" placeholder="Test 1">
-
-                <input type="number" max="20" name="test0" id="vr" oninput="cool()" placeholder="Test 2">
-
-                <input type="number" max="60" name="exam1" id="ex" oninput="cool()" placeholder="Exam Score">
-
-                <input type="number" name="tota" readonly id="to" oninput="cool()" placeholder="Total">
-
-                <input type="text" name="grade" readonly id="gra" oninput="cool()" placeholder="Grade"><br><br><br>
-
-                <label for="subject"></label>
-                <select name="subject" id="su" onchange="viktor()" required>
-                    <option value="">Select Subject</option>
-                    <option value="English">English</option>
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Agricultural Science">Agricultural Science</option>
-                </select>
-
-                <input type="number" max="20" name="test" id="from" oninput="viktor()" placeholder="Test 1">
-
-                <input type="number" max="20" name="test0" id="hi" oninput="viktor()" placeholder="Test 2">
-
-                <input type="number" max="60" name="exam1" id="am" oninput="viktor()" placeholder="Exam Score">
-
-                <input type="number" name="tota" readonly id="toa" oninput="viktor()" placeholder="Total">
-
-                <input type="text" name="grade1" readonly id="de" oninput="viktor()" placeholder="Grade"><br><br><br>
-
-                <label for="subject"></label>
-                <select name="subject" id="ma" onchange="victor()" required>
-                    <option value="">Select Subject</option>
-                    <option value="English">English</option>
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Agricultural Science">Agricultural Science</option>
-                </select>
-
-                <input type="number" max="20" name="test" id="come" oninput="victor()" placeholder="Test 1">
-
-                <input type="number" max="20" name="test0" id="nice" oninput="victor()" placeholder="Test 2">
-
-                <input type="number" max="60" name="exam1" id="good" oninput="victor()" placeholder="Exam Score">
-
-                <input type="number" name="tota" readonly id="goo" oninput="victor()" placeholder="Total">
-
-                <input type="text" name="grade1" readonly id="gr" oninput="victor()" placeholder="Grade">
-
-                
-
-
-               
-                
-               
             
-            </form>
-        </div>
+            <input type="text" readonly id="naam2">
+            <input type="text" readonly id="naam22">
+            <input type="text" readonly id="naam222" >
 
-        <div id="third">
-            <form action="" method="post">
-                <label for="submit"></label>
-            <input type="submit" name="submit" value="SUBMIT" id="mit">
-            </form>
-            <h3 class="h">Candidate Name:</h3>
+            
+            <input type="text" readonly id="naam3">
+            <input type="text" readonly id="naam33">
+            <input type="text" readonly id="naam333">
 
-                <input type="text" name="name" id="g" readonly>
-                <h3 class="i">e-Result</h3>
+            
+            <input type="text" readonly id="naam4">
+            <input type="text" readonly id="naam44" >
+            <input type="text" readonly id="naam444" >
 
-            <div id="fourth">
+            
+            <input type="text" readonly id="naam5">
+            <input type="text" readonly id="naam55">
+            <input type="text" readonly id="naam555">
 
-                <h3><span class="j">SUBJECTS</span><span class="k">MARK</span><span class="l">GRADES</span><span class="m">REMARKS</span></h3>
+            
+            <input type="text" readonly id="naam6">
+            <input type="text" readonly id="naam66">
+            <input type="text" readonly id="naam666">
 
-                <input type="text" id="n" >
-                <input type="text" id="o">
-                <input type="text" id="p" onclick="sub()">
-                <input type="text" id="q">
-
-                <input type="text" id="r" onclick="dat()">
-                <input type="text" id="s">
-                <input type="text" id="v">
-                <input type="text" id="u">
-
-                <input type="text" id="w">
-                <input type="text" id="x">
-                <input type="text" id="y">
-                <input type="text" id="z">
-
-                <input type="text" id="wo">
-                <input type="text" id="xi">
-                <input type="text" id="yu">
-                <input type="text" id="zi">
-
-                <input type="text" id="bi">
-                <input type="text" id="ca">
-                <input type="text" id="da">
-                <input type="text" id="fa">
-
-                <input type="text" id="bb">
-                <input type="text" id="cb">
-                <input type="text" id="db">
-                <input type="text" id="fc">
-
-
-
-
-                
-                
-            </div>
+            <h2 class="r">Overall Total(#)</h2>
+            <input type="text" placeholder="Total" readonly id="g1total">
+            <!-- <input type="text" placeholder="Total" readonly id="g1total"> -->
 
         </div>
+
+        <div id="third"> 
+
+        </div>
+
+        <div id="forth">
+            <img src="logo/logo.png" height="30" alt="" class="first">
+            <h1 class="second">NEXA</h1>
+            <input type="text" name="cname" id="cname" required placeholder="Cashier Name" oninput="put1()">
+            <input type="text" name="name" id="name" required placeholder="Customer's Name" oninput="put1()">
+            <h3 class="a"><span class="b"></span>Product<span class="c">Price</span><span class="d">Quantity</span><span class="e">Total(#)</span></h3>
+            <form method="post">
+                <select name="product" id="product" required  oninput="put1()">
+                    <option value="">--Select Products--</option>
+                    <option value="Standing Fan" data-price="80000">Standing Fan</option> 
+                    <option value="School Bag" data-price="12000">School Bag</option>
+                    <option value="Shoe" data-price="40000">Shoe</option>
+                    <option value="Salt" data-price="2000">Salt</option>
+                    <option value="Spaghetti" data-price="5000">Spaghetti</option>
+                    <option value="Indomie" data-price="4000">Indomie</option>  
+                </select>
+                <input type="number" name="price" id="price" readonly placeholder="Price"  oninput="put1()">
+                <input type="number" name="qty" id="qty" required placeholder="Quantity"  oninput="put1()">
+                
+                <input type="number" name="total" id="total" required placeholder="Total"  oninput="put1()">
+                <script>
+                    let vic = document.getElementById("product");
+                    let priceInput = document.getElementById("price");
+
+                    product.addEventListener("change", function() {
+                     let selectedOption = vic.options[vic.selectedIndex];
+                     priceInput.value = selectedOption.dataset.price;
+                    });
+
+                    // function autofill(){
+                    //  let price = document.getElementById("price").value;
+                    //  let qty = document.getElementById("qty").value;
+    
+                    //   let total = Number(price) * Number(qty);
+                    //   let totall = total;
+                    //   document.getElementById("total").value = totall;
+                    //   }
+                     </script><br><br>
+
+                <select name="product" id="product1" required  oninput="put1()">
+                     <option value="">--Select Products--</option>
+                     <option value="Standing Fan" data-price="80000">Standing Fan</option> 
+                     <option value="School Bag" data-price="12000">School Bag</option>
+                     <option value="Shoe" data-price="40000">Shoe</option>
+                     <option value="Salt" data-price="2000">Salt</option>
+                     <option value="Spaghetti" data-price="5000">Spaghetti</option>
+                     <option value="Indomie" data-price="4000">Indomie</option>  
+                </select>
+                <input type="number" name="price" id="price1" readonly placeholder="Price"  oninput="put1()" >
+                <input type="number" name="qty" id="qty1" required placeholder="Quantity"  oninput="put1()">
+
+                <input type="number" name="total" id="total1" required placeholder="Total"  oninput="put1()">
+
+                <script>
+                    let mold = document.getElementById("product1");
+                    let priceInput1 = document.getElementById("price1");
+
+                    product1.addEventListener("change", function() {
+                    let selectedOptions = mold.options[mold.selectedIndex];
+                    priceInput1.value = selectedOptions.dataset.price;
+                 });
+                </script><br><br>
+
+                <select name="product" id="product2" required oninput="put1()">
+                    <option value="">--Select Products--</option>
+                    <option value="Standing Fan" data-price="80000">Standing Fan</option> 
+                    <option value="School Bag" data-price="12000">School Bag</option>
+                    <option value="Shoe" data-price="40000">Shoe</option>
+                    <option value="Salt" data-price="2000">Salt</option>
+                    <option value="Spaghetti" data-price="5000">Spaghetti</option>
+                    <option value="Indomie" data-price="4000">Indomie</option>  
+                </select>
+                <input type="number" name="price" id="price2" readonly placeholder="Price" oninput="put1()" >
+                <input type="number" name="qty" id="qty2" required placeholder="Quantity" oninput="put1()">
+
+                <input type="number" name="total" id="total2" required placeholder="Total" oninput="put1()">
+
+                <script>
+                    let mold1 = document.getElementById("product2");
+                    let priceInput2 = document.getElementById("price2");
+
+                    product2.addEventListener("change", function nobl() {
+                    let selectedOptions1 = mold1.options[mold1.selectedIndex];
+                    priceInput2.value = selectedOptions1.dataset.price;
+                    });
+                </script><br><br>
+
+                <select name="product" id="product3" required oninput="put1()">
+                    <option value="">--Select Products--</option>
+                    <option value="Standing Fan" data-price="80000">Standing Fan</option> 
+                    <option value="School Bag" data-price="12000">School Bag</option>
+                    <option value="Shoe" data-price="40000">Shoe</option>
+                    <option value="Salt" data-price="2000">Salt</option>
+                    <option value="Spaghetti" data-price="5000">Spaghetti</option>
+                    <option value="Indomie" data-price="4000">Indomie</option>  
+                </select>
+                    <input type="number" name="price" id="price3" readonly placeholder="Price" oninput="put1()" >
+                    <input type="number" name="qty" id="qty3" required placeholder="Quantity" oninput="put1()">
+
+                    <input type="number" name="total" id="total3" required placeholder="Total" oninput="put1()">
+
+                <script>
+                    let mold2 = document.getElementById("product3");
+                    let priceInput3 = document.getElementById("price3");
+
+                    product3.addEventListener("change", function noble() {
+                    let selectedOptions2 = mold2.options[mold2.selectedIndex];
+                    priceInput3.value = selectedOptions2.dataset.price;
+                    });
+                </script><br><br>
+
+                <select name="product" id="product4" required oninput="put1()">
+                    <option value="">--Select Products--</option>
+                    <option value="Standing Fan" data-price="80000">Standing Fan</option> 
+                    <option value="School Bag" data-price="12000">School Bag</option>
+                    <option value="Shoe" data-price="40000">Shoe</option>
+                    <option value="Salt" data-price="2000">Salt</option>
+                    <option value="Spaghetti" data-price="5000">Spaghetti</option>
+                    <option value="Indomie" data-price="4000">Indomie</option>  
+                </select>
+                    <input type="number" name="price" id="price4" readonly placeholder="Price" oninput="put1()" >
+                    <input type="number" name="qty" id="qty4" required placeholder="Quantity" oninput="put1()">
+
+                    <input type="number" name="total" id="total4" required placeholder="Total" oninput="put1()">
+
+                <script>
+                    let mold3 = document.getElementById("product4");
+                    let priceInput4 = document.getElementById("price4");
+
+                    product4.addEventListener("change", function autofil() {
+                    let selectedOptions3 = mold3.options[mold3.selectedIndex];
+                    priceInput4.value = selectedOptions3.dataset.price;
+                    });
+                </script><br><br>
+
+                <select name="product" id="product5" required oninput="put1()">
+                    <option value="">--Select Products--</option>
+                    <option value="Standing Fan" data-price="80000">Standing Fan</option> 
+                    <option value="School Bag" data-price="12000">School Bag</option>
+                    <option value="Shoe" data-price="40000">Shoe</option>
+                    <option value="Salt" data-price="2000">Salt</option>
+                    <option value="Spaghetti" data-price="5000">Spaghetti</option>
+                    <option value="Indomie" data-price="4000">Indomie</option>  
+                </select>
+                <input type="number" name="price" id="price5" readonly placeholder="Price" oninput="put1()" >
+                <input type="number" name="qty" id="qty5" required placeholder="Quantity" oninput="put1()">
+
+                 <input type="number" name="total" id="total5" required placeholder="Total" oninput="put1()">
+
+                <script> 
+                    let mold4 = document.getElementById("product5");
+                    let priceInput5 = document.getElementById("price5");
+
+                    product5.addEventListener("change", function autofil() {
+                    let selectedOptions4 = mold3.options[mold4.selectedIndex];
+                    priceInput5.value = selectedOptions4.dataset.price;
+                    });
+                </script><br><br>
+                <h3 class="v">Overall Total(#)</h3>
+                <input type="text" name="gtotal" id="gtotal" placeholder="Overall Total" readonly oninput="put1()">
+            </form>
+
+            <form method="post">
+               
+            </form>
+
+        </div>
+
     </div>
+
+    
     
 </body>
 </html>

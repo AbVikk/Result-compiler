@@ -1,682 +1,581 @@
-#gone{
-    font-family: calibri;
+#home{
+    background: linear-gradient(to right, white, white, skyblue, white, white);
 }
 #first{
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     height: 100%;
     width: 100%;
     position: absolute;
-    background-image: url(image/colorful-stationery.jpg);
-    background-size: cover;
+    background-image: url(image/lady\ png.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 #second{
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 50%;
+    top: 25%;
+    left: 75%;
+    height: 60%;
+    width: 20%;
     position: absolute;
-    background-color: rgb(0, 0, 0, 0.5);
+    /* background-color: rgb(209, 86, 86); */
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 3px, 3px, 3px, 3px, black;
 }
 #third{
-    top: 0;
-    left: 50%;
-    height: 100%;
-    width: 50%;
+    /* top: 85%;
+    left: 0%;
+    width: 100%;
+    height: 15%;
     position: absolute;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.7); */
 }
-#fourth{
-    top: 40%;
-    left: 10%;
-    width: 80%;
-    height: 50%;
+#forth{
+    top: 10%;
+    left: 20%;
+    width: 50%;
+    height: 80%;
     position: absolute;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(245, 245, 245, 0.5);
     border-radius: 10px;
-    border-style: ridge;
-
-
+    border: 2px;
+    border-color: black;
+    border-style: inset;
+    box-shadow: 10px;
 }
-#move{
-    margin-top: 10%;
-    margin-left: 5%;
-
+.first{
+    margin-top: 4%;
+    margin-left: 3%;
 }
-#fullname{
-    padding: 8px;
-    border-radius: 7px;
-    width: 50%;
-    
-}
-#subject{
-    padding: 8px;
-    border-radius: 7px;
-    width: 21%;
+#cname{
+    margin-top: 13%;
+    margin-left: -17%;
+    position: absolute;
+    padding: 9px;
+    width: 24%;
     border: none;
+    border-radius: 4px;
+    background-color: rgb(10, 175, 10);
 }
-#test1{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
+#name{
+    margin-top: 13%;
+    margin-left: 40%;
+    position: absolute;
+    padding: 9px;
+    width: 24%;
     border: none;
+    border-radius: 4px;
+    background-color: rgb(10, 175, 10);
 }
-#test2{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-}
-#exam{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-}
-#total{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-}
-#grade{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-}
-#b{
-    margin-left: 5%;
-}
-#subjec{
-    padding: 8px;
-    border-radius: 7px;
-    width: 21%;
-    border: none;
-}
-#test{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#test0{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#exam1{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#tota{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#grade1{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#subje{
-    padding: 8px;
-    border-radius: 7px;
-    width: 21%;
-    border: none;
-
-}
-#tes{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#te{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#exa{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#tot{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#grad{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#subj{
-    padding: 8px;
-    border-radius: 7px;
-    width: 21%;
-    border: none;
-
-}
-#t{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#vr{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#ex{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;  
-    border: none; 
-}
-#to{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#gra{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#su{
-    padding: 8px;
-    border-radius: 7px;
-    width: 21%;
-    border: none;
-
-}
-#from{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#hi{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#am{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#toa{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#de{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#ma{
-    padding: 8px;
-    border-radius: 7px;
-    width: 21%;
-    border: none;
-
-}
-#come{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#nice{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#good{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#goo{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
-}
-#gr{
-    padding: 8px;
-    border-radius: 7px;
-    width: 10%;
-    border: none;
-
+.second{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 45%;
+    font-family: calibri;
+    color: rgb(122, 14, 14);
 }
 .a{
-    margin-left: 2%;
-    position: absolute;
-    margin-top: -4%;
-    color: white;
-}
-.b{
-    margin-left: 21%;
-    position: absolute;
-    margin-top: -4%;
-    color: white;
+    font-family: calibri;
+    margin-top: 11%;
+    color: rgb(122, 14, 14);
 
 }
-.c{
-    margin-left: 34%;
-    position: absolute;
-    margin-top: -4%;
-    color: white;
-}   
-.d{
-    margin-left: 48%;
-    position: absolute;
-    margin-top: -4%;
-    color: white;
-}
-.e{
-    margin-left: 60%;
-    position: absolute;
-    margin-top: -4%;
-    color: white;
-}
-.f{
-    margin-left: 73%;
-    position: absolute;
-    margin-top: -4%;
-    color: white;
-}
-.h{
-    margin-top: 7%;
-    margin-left: 20%;
-    position: absolute;
-    color: white;
-}
-#g{
-    margin-top: 7%;
-    margin-left: 42%;
-    position: absolute;
-    padding: 8px;
-    width: 40%;
-    border-radius: 8px;
-    border: none;
-}
-.i{
-    margin-top: 16%;
-    margin-left: 50%;
-    position: absolute;
-    color: white;
-}
-.j{
-color: white;
-position: absolute;
-margin-left: 2%;
-}
-.k{
-    color: white;
-    position: absolute;
-    margin-left: 34%;    
-}
-.l{
-    color: white;
-    position: absolute;
-    margin-left: 51%;
-}
-.m{
-    color: white;
-    position: absolute;
-    margin-left: 75%;
-}
-#n{
-    margin-top: 5%; 
-    margin-left: 34%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#o{
-    margin-top: 5%; 
-    margin-left: 52%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#p{
-    margin-top: 5%; 
-    margin-left: 2%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-}
-#q{
-    margin-top: 5%; 
-    margin-left: 70%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-    text-align: center;
-}
-#r{
-    margin-top: 12%; 
-    margin-left: 2%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-}
-#s{
-    margin-top: 12%; 
-    margin-left: 34%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#u{
-    margin-top: 12%; 
-    margin-left: 52%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#v{
-    margin-top: 12%; 
-    margin-left: 70%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-    text-align: center;
-}
-#w{
-    margin-top: 19%; 
-    margin-left: 2%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-}
-#x{
-    margin-top: 19%; 
-    margin-left: 34%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#y{
-    margin-top: 19%; 
-    margin-left: 52%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#z{
-    margin-top: 19%; 
-    margin-left: 70%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-    text-align: center;
-}
-#wo{
-    margin-top: 26%; 
-    margin-left: 2%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-}
-#xi{
-    margin-top: 26%; 
-    margin-left: 34%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
+.b{
+    margin-left: 3%;
     
 }
-#yu{
-    margin-top: 26%; 
-    margin-left: 52%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    color: white;
-    text-align: center;
+.c{
+    margin-left: 19%;
+    
 }
-#zi{
-    margin-top: 26%; 
-    margin-left: 70%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-    text-align: center;
+.d{
+    margin-left: 16%;
+    
 }
-#bi{
-    margin-top: 33%; 
-    margin-left: 2%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-}
-#ca{
-    margin-top: 33%; 
-    margin-left: 34%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#da{
-    margin-top: 33%; 
-    margin-left: 52%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#fa{
-    margin-top: 33%; 
-    margin-left: 70%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-    text-align: center;
-}
-#bb{
-    margin-top: 40%; 
-    margin-left: 2%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-}
-#cb{
-    margin-top: 40%; 
-    margin-left: 34%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#db{
-    margin-top: 40%; 
-    margin-left: 52%;
-    padding: 6px;
-    width: 10%;
-    position: absolute;
-    border: 1px;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-}
-#fc{
-    margin-top: 40%; 
-    margin-left: 70%;
-    padding: 6px;
-    width: 25%;
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0);
-    border: none;
-    color: white;
-    text-align: center;
+.e{
+    margin-left: 17%;
     
 }
 ::placeholder{
-    color: brown;
-    text-align: center;
-    font-size: 15px;
+    color: black;
 }
-.brow{
-    margin-left: 35%;
-    color: yellow;
-    font-size: 300%;
-    margin-top: 0.5%;
-
-}
-#mit{
-    margin-left: 80%;
-    padding: 10px;
-    width: 15%;
-    background-color: rgb(0, 128, 0, 0.8);
-    color: yellow;
-    border-radius: 8px;
-    margin-top: 10%;
+#product{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 24%;
     border: none;
+    border-radius: 4px;
+    margin-left: 2%;
+}
+#price{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#qty{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#total{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 4%;
+}
+#product1{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 24%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 2%;
+}
+#price1{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#qty1{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#total1{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 4%;
+}
+#product2{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 24%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 2%;
+}
+#price2{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#qty2{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#total2{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 4%;
+}
+#product3{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 24%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 2%;
+}
+#price3{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#qty3{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#total3{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 4%;
+}
+#product4{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 24%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 2%;
+}
+#price4{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#qty4{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#total4{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 4%;
+}
+#product5{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 24%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 2%;
+}
+#price5{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#qty5{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+#total5{
+    background-color: rgb(219, 243, 6);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 4%;
+}
+#gtotal{
+    background-color: rgb(10, 175, 10);
+    padding: 9px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 73%;
+    margin-top: -2%;
+    position: absolute;
+}
+.f{
+    position: absolute;
+    margin-top: -2%;
+    font-family: calibri;
+    margin-left: 1%;
+}
+.g{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 1%;
+}
+#caname{
+    margin-left: 37%;
+    padding: ;
+    width: 55%;
+    position: absolute;
+    margin-top: -2%;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    
+    
+}
+#naame{
+    padding: ;
+    width: 55%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    
+}
+.h{
+    position: absolute;
+    margin-top: 30%;
+    font-family: calibri;
+    margin-left: 2%;
+}
+.q{
+    position: absolute;
+    margin-top: 30%;
+    font-family: calibri;
+    margin-left: 51%;
+}
+.p{
+    position: absolute;
+    margin-top: 30%;
+    font-family: calibri;
+    margin-left: 80%;
+}
+.i{
+    position: absolute;
+    margin-top: 42%;
+    font-family: calibri;
+}
+.j{
+    position: absolute;
+    margin-top: 54%;
+    font-family: calibri;
+}
+.k{
+    position: absolute;
+    margin-top: 66%;
+    font-family: calibri;
+}
+.l{
+    position: absolute;
+    margin-top: 78%;
+    font-family: calibri;
+}
+.m{
+    position: absolute;
+    margin-top: 90%;
+    font-family: calibri;
+}
+#naam1{
+    margin-left: 2%;
+    padding: ;
+    width: 40%;
+    position: absolute;
+    margin-top: 40%;  
+    background-color: rgb(255, 255, 255, 0);
+    border: none; 
+    font-size: 70%;
+}
+#naam11{
+    margin-left: 80%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 40%; 
+    background-color: rgb(255, 255, 255, 0);
+    border: none;  
+}
+#naam111{
+    margin-left: 40%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 40%; 
+    background-color: rgb(255, 255, 255, 0);
+    border: none; 
+    text-align: center; 
+}
+#naam2{
+    margin-left: 2%;
+    padding: ;
+    width: 40%;
+    position: absolute;
+    margin-top: 50%;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+}
+#naam22{
+    margin-left: 80%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 50%;   
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+}
+#naam222{
+    margin-left: 40%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 50%;   
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    text-align: center;
+}
+#naam3{
+    margin-left: 2%;
+    padding: ;
+    width: 40%;
+    position: absolute;
+    margin-top: 60%;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+}
+#naam33{
+    margin-left: 80%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 60%; 
+    background-color: rgb(255, 255, 255, 0);
+    border: none;  
+}
+#naam333{
+    margin-left: 40%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 60%; 
+    background-color: rgb(255, 255, 255, 0);
+    border: none;  
+    text-align: center;
+}
+#naam4{
+    margin-left: 2%;
+    padding: ;
+    width: 40%;
+    position: absolute;
+    margin-top: 70%;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+}
+#naam44{
+    margin-left: 80%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 70%; 
+    background-color: rgb(255, 255, 255, 0);
+    border: none;  
+}
+#naam444{
+    margin-left: 40%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 70%; 
+    background-color: rgb(255, 255, 255, 0);
+    border: none;  
+    text-align: center;
+}
+#naam5{
+    margin-left: 2%;
+    padding: ;
+    width: 40%;
+    position: absolute;
+    margin-top: 80%;   
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+}
+#naam55{
+    margin-left: 80%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 80%;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    
+}
+#naam555{
+    margin-left: 40%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 80%;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    text-align: center;
+}
+#naam6{
+    margin-left: 2%;
+    padding: ;
+    width: 40%;
+    position: absolute;
+    margin-top: 90%;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+}
+#naam66{
+    margin-left: 80%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 90%;   
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+   
+}
+#naam666{
+    margin-left: 40%;
+    padding: ;
+    width: 27%;
+    position: absolute;
+    margin-top: 90%;   
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    text-align: center;
+    
+}
+#g1total{
+    margin-left: 60%;
+    padding: 10px;
+    width: 27%;
+    position: absolute;
+    margin-top: 96%; 
+    background-color: rgb(245, 245, 220, 0);
+    border: none;
+}
+.r{
+    position: absolute;
+    font-family: calibri;
+    margin-top: 96%;
+    margin-left: 1%;
+}
+.v{
+    position: absolute;
+    font-family: calibri;
+    margin-top: -1%;
+    margin-left: 55%; 
+}
+.u{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: -6%;
+}
+.firs{
+    margin-top: 3%;
+    margin-left: 2%;
 }
